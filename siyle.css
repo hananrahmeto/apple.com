@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #f5f5f7;
+    /* display: flex; */
+    width: 100%;
+    position: fixed;
+    height: 48px;
+}
+    
+.links ul{
+    width: 980px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    list-style: none;
+     padding-bottom: 20px;  
+    align-items: center;
+    height: 48px;
+
+}
+.links ul a{
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 900;
+    padding-bottom: 20px;
+    color: #272728;
+}
+.section1{
+    background: url(img/promo_valentines_day_2025_announce__e7vadslxheaa_large.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 600px;
+    width: 100%;
+}
+.contin1{
+    text-align: center;
+    position: relative;
+    top: 380px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.contin1 p{
+    font-size: 15px;
+    font: 1em sans-serif;
+}
+.contin1 a{
+    text-decoration: none;
+    border-radius: 30px;
+    width: 68px;
+    border: solid 1px;
+    color: white;
+    background-color:#0077ED;
+    font-size: 17px;
+    padding: 10px 20px;
+}
+.section2{
+    background: url(img/hero_iphone16pro_avail__fnf0f9x70jiy_large.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 600px;
+    margin-top: 10px;
+    width: 100%;
+}
+.contener2{
+    text-align: center;
+    
+    font-weight: bold; 
+    color:white;
+     padding-top: 54px;
+
+}
+.contener2 h1{
+  font-size: 50px;
+}
+.more{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 7px;
+} 
+.more a{
+    text-decoration: none;
+    border-radius: 30px;
+    color: white;
+}
+.more1{
+    background-color: #0077ED;
+   
+    padding: 10px 20px;
+     text-decoration: none;
+     border-radius: 30px;
+         border: solid 1px #0077ED;
+}
+.buy{
+     min-width: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+   /* background-color: black; */
+      font-size: 1.2em;
+    border-radius: 30px;
+    border: solid 0.5px #2997FF;
+    
+}
+.buy a{
+    color: #2997FF;
+}
+.buy a:hover{
+    
+    color: white;
+}
+.buy:hover{
+background-color:#2997FF ;
+}
+.section3{
+/* width: 1332px; */
+display: flex;
+width: 100%;
+/* flex-wrap: wrap; */
+justify-content: space-between;
+margin: 10px 10px;
+}
+/* body > section.section3{
+ /* flex-wrap: wrap; */
+
+.contener3{
+    background: url(img/iphone16_new.jpg);
+    background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+    height: 540px;
+    width: 660px;
+    text-align: center;
+    padding-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.contener3 h1{
+ color: white;
+ font-size: 40px;
+ font-weight: bold;
+}
+.contener3 h2{
+ color: white;
+ font-size: 30px;
+ font-weight: bold;
+}
+.more2{
+   display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 7px; 
+}
+.more2 a{
+    
+    text-decoration: none;
+    border-radius: 30px;
+    color: black;
+}
+.learn{
+   background-color: white;
+   
+    padding: 10px 20px;
+     text-decoration: none;
+     border-radius: 30px;
+         border: solid 1px #0077ED; 
+}
+.buyy{
+    min-width: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+   /* background-color: black; */
+      font-size: 1.2em;
+    border-radius: 30px;
+    border: solid 0.5px white; 
+}
+.buyy a{
+    color: white;
+}
+.buyy:hover{
+    background-color: white;
+   
+}
+.buyy a:hover{
+ color: black;
+}
+ .classic{
+    background: url(img/apple_watch_new.jpg);
+    background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+    height: 540px;
+    width: 660px;
+     margin-right: 20px;
+    text-align: center;
+    padding-top: 40px;
+} 
+.classic p{
+    font-size: 20px;
+    padding-top: 4px;
+}
+.lernmore{
+     display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 7px; 
+}
+.lernmore a{
+    text-decoration: none;
+    border-radius: 30px;
+    color: white;
+}
+.lmr{
+     background-color: #0077ED;
+   
+    padding: 10px 20px;
+     text-decoration: none;
+     border-radius: 30px;
+         border: solid 1px #0077ED; 
+}
+.lmr1{
+    min-width: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+   /* background-color: black; */
+      font-size: 1.2em;
+    border-radius: 30px;
+    border: solid 0.5px #0077ED; 
+}
+.lmr1 a{
+    color: #0077ED;
+}
+.lmr1 a:hover{
+    color: white;
+}
+.lmr1:hover{
+    background-color: #0077ED;
+}
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+footer p{
+    font-size: 15px;
+    width: 700px;
+    margin: 0 auto;
+}
